@@ -18,6 +18,7 @@
   \subsection Compilation
 
   Just download this package, uncompress it, and execute
+   - mkdir build
    - cd build
    - cmake ..
    .
@@ -29,7 +30,10 @@
 
   The <em>cmake</em> only need to be executed once (make will automatically call
   <em>cmake</em> if you modify one of the <em>CMakeList.txt</em> files).
-
+  
+  To execute the tests, do:
+   - make test
+   .
   To generate this documentation type
        - make doc
        .
