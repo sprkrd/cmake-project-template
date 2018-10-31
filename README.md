@@ -1,7 +1,10 @@
 # CMake project template
 
 Project skeleton that incorporates a ready-to-go CMake structure for
-libraries and applications. By default,
+libraries and applications in C++. CMake's minimum version is: 3.0. CMakeLists
+is tuned for C++11.
+
+By default,
 it uses the GPL 3.0 license for generating the new projects.
 
 The basic project is structured as follows:
