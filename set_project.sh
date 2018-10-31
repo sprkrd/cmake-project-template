@@ -16,13 +16,13 @@ fi
 if [ -z "$pty_name" ]
 then
   echo "Missing pretty name. Usage: ./set_project name \"Pretty name\" \"Author\""
-  pty_name=$name
+  exit 1
 fi
 
 if [ -z "$author" ]
 then
   echo "Missing author. Usage: ./set_project name \"Pretty name\" \"Author\""
-  pty_name=$name
+  exit 1
 fi
 
 find . -type f -print0 | xargs -0 sed -i "s/project_name_here/$name/g"
