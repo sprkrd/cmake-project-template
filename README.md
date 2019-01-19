@@ -54,7 +54,7 @@ being initialized for another repository), and substitute all the
 occurrences of "project_name_here" and other placeholders by the
 information supplied as the script's arguments.
 
-The project can be build right away:
+The project can be built right away:
 
 ```
 mkdir build
